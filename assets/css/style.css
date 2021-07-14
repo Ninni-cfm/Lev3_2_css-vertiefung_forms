@@ -1,8 +1,22 @@
+/*****************************************************************************
+    Remove margin and padding for all elements
+*/
 * {
     margin: 0;
     padding: 0;
 }
 
+/*****************************************************************************
+    Set default font-family and size
+*/
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+/*****************************************************************************
+    Setup some styles for the form
+*/
 form {
     width: 400px;
     display: block;
@@ -26,7 +40,6 @@ a {
     color: white;
     text-decoration: none;
 }
-
 #login-login,
 #signup-signup {
     background-color: #51bb70;
@@ -35,7 +48,6 @@ a {
 #signup-login:hover {
     background-color: #6CE939;
 }
-
 
 /*****************************************************************************
     Title
@@ -69,8 +81,7 @@ input {
 */
 .pwd-lost {
     text-align: right;
-    margin-bottom: 52px;
-
+    margin-bottom: 51px;
 }
 .pwd-lost a {
     color:green;
